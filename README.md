@@ -1,4 +1,4 @@
-# Ozone-Based Disinfection
+# Ozone-Based Disinfection Infrastructures
 
 
 It’s crucial that we are able to sterilise large spaces in the long-term. Hospitals, government offices, critical infrastructure locations used by essential workers between shifts, and public spaces such as transportation zones all need sterilising. The challenge is not just conducting the sterilisation but reducing the time it takes to perform the disinfection.
