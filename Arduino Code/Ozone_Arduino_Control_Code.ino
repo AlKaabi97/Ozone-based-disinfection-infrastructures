@@ -96,22 +96,6 @@ void loop() {
   Serial.print(MQ131.getO3(UG_M3));
   Serial.println(" ug/m3");
 
-float concentration = MQ131.getO3(PPM);
-
-  if(concentration >= maxO3){
-    digitalWrite(relaypin,HIGH);
-    Serial.println(" O3 is too HIGH");
-    Serial.println(" ----------------------------------------");
-  }
-  else if (concentration <= minO3){                                        // Maintain the O3 concentraction between 2 values 
-    digitalWrite(relaypin,LOW);
-    Serial.println(" O3 Droping DOWN ... Back ON");
-    Serial.println(" ----------------------------------------");
-  }
-  else{
-    Serial.println("Disinfection in Progress");
-    Serial.println(" ----------------------------------------");
-  }
 
   delay(10000);   //  time between samples in miliseconds 
 }
