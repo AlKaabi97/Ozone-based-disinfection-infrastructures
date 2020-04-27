@@ -9,3 +9,6 @@ Technical approach
 --------------------
 
 By adopting a similar approach to the sanitisation of PPE with UV-Type C lights, Ozone-based infrastructures will be scaled up to sterilise larger spaces.
+
+
+[Contribution guidelines for this project](Arduino Code/README.md)
